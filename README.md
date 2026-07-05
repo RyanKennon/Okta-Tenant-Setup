@@ -2,7 +2,7 @@
   <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/2c068a6c-d82b-4a43-ad32-d9fe559e1837" />
 </p>
 
-# Okta Tenant Setup & Configuration — Identity Provider Foundations Lab
+# Okta Tenant Setup & Configuration
 
 This project demonstrates the foundational configuration of an Okta Identity Provider (IdP) tenant from the ground up, simulating the initial setup responsibilities of an IAM Analyst or Identity Engineer in an enterprise environment. Starting with org initialization and brand customization, the lab walks through building a production-ready Okta org for a fictional company, Kennon Technologies, including custom profile attribute design, user identity creation, group structure, dynamic group rule automation, authentication policy configuration, global session management, and authenticator enrollment policy enforcement. All configurations are hands-on in a live Okta trial org and reflect real-world IAM practices around identity lifecycle management, access policy design, and directory administration. The lab serves as the foundational layer for subsequent Okta labs covering Active Directory integration, SAML SSO, SCIM provisioning, lifecycle automation, and access governance.
 
