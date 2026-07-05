@@ -1,7 +1,42 @@
-# Okta-Tenant-Setup
+<p align="center">
+  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/2c068a6c-d82b-4a43-ad32-d9fe559e1837" />
+</p>
 
+# Okta Tenant Setup & Configuration — Identity Provider Foundations Lab
 
+This project demonstrates the foundational configuration of an Okta Identity Provider (IdP) tenant from the ground up, simulating the initial setup responsibilities of an IAM Analyst or Identity Engineer in an enterprise environment. Starting with org initialization and brand customization, the lab walks through building a production-ready Okta org for a fictional company, Kennon Technologies, including custom profile attribute design, user identity creation, group structure, dynamic group rule automation, authentication policy configuration, global session management, and authenticator enrollment policy enforcement. All configurations are hands-on in a live Okta trial org and reflect real-world IAM practices around identity lifecycle management, access policy design, and directory administration. The lab serves as the foundational layer for subsequent Okta labs covering Active Directory integration, SAML SSO, SCIM provisioning, lifecycle automation, and access governance.
 
+---
+
+## Environments and Technologies Used
+
+- Okta Identity Cloud (Trial Org)
+- Okta Admin Console
+- Okta Universal Directory
+- Okta Profile Editor
+- Okta Group Rules & Expression Language
+- Okta Authentication Policies
+- Okta Global Session Policy
+- Okta Authenticator Enrollment Policy
+
+---
+
+## Table of Contents
+
+- [1) Organization Initialization](#1-organization-initialization)
+- [2) Branding](#2-branding)
+- [3) Create User Identities](#3-create-a-user-identities)
+- [4) Add Custom Profile Attributes](#4-add-custom-profile-attributes)
+- [5) Update Attributes on User Identities](#5-update-attributes-on-user-identities)
+- [6) Create Groups](#6-create-groups)
+- [7) Manually Assign Users to a Group](#7-manually-assign-users-to-a-group)
+- [8) Create Group Rules to Assign Users to Groups](#8-create-group-rules-to-assign-users-to-groups)
+- [9) Create an Authentication Policy](#9-create-an-authentication-policy)
+- [10) Add Rules to a Policy](#10-add-rules-to-a-policy)
+- [11) Create a Global Session Policy and Configure Rule](#11-create-a-global-session-policy-and-configure-rule)
+- [12) Create an Authenticator Enrollment Policy and Configure Enrollment Rule](#12-create-an-authenticator-enrollment-policy-and-configure-enrollment-rule)
+
+---
 
 ### 1) Organization Initialization
 
@@ -53,7 +88,7 @@
 
 ---
 
-### 3) Create a User Identitys
+### 3) Create a User Identities
 
 1. Open the **Directory** tab then select **People** then select **Add Person**
 2. Create a User Identity with the following information
@@ -109,7 +144,7 @@
 1. Open the **Directory** then **Profile Editor** then select **User (default)**
 2. Select **Add Attribute** then create an Attribute with the following information:
    - **Data Type:** String
-   - **Display Name:** Emplyee ID
+   - **Display Name:** Employee ID
    - **Variable Name:** employeeID
    - **Description:** Unique HR System Identifier
    - **User Description:** Hide
@@ -134,7 +169,7 @@
 
 ---
 
-### 5) Update Atttributes on User Identities
+### 5) Update Attributes on User Identities
 
 1. Open the **Directory** then **People**
 2. Select **John Smith** then the **Profile** tab then click **Edit**
@@ -182,7 +217,7 @@
   <img width="687" height="255" alt="image" src="https://github.com/user-attachments/assets/3235e97c-0b36-4863-8467-732d4aab70c7" />
 </p>
 
-4. Create 3 additional groups named named: 
+4. Create 3 additional groups named: 
    - **Finance**
    - **IT**
    - **Human Resources**
@@ -237,7 +272,7 @@
 </p>
 
 8. Create a third Group Rule with the following information:
-   - **Rule Name:** Assign Human Resouces Users
+   - **Rule Name:** Assign Human Resources Users
    - **If:** User Attribute Department Equals Human Resources
    - **Assign To:** Human Resources
 
@@ -251,7 +286,7 @@
 
 ### 9) Create an Authentication Policy
 
-1. Open the **Security** tab then go to **Authentication Poicies**
+1. Open the **Security** tab then go to **Authentication Policies**
 2. Select **App Sign-In** then **Create Policy**
 3. Create an Authentication Policy with the following information:
    - **Name:** Standard Employee Policy
@@ -278,7 +313,7 @@
 </p>
 
 3. **Save** then **Add Rule** again
-4. For the Second Rule enter teh following information:
+4. For the Second Rule enter the following information:
   - **Rule Name:** Require MFA
   - **Then Access Is:** Allowed After Successful Authentication
   - **And User Must Authenticate With:** Password + Another Factor
@@ -345,6 +380,3 @@
 <p align="center">
   <img width="905" height="773" alt="image" src="https://github.com/user-attachments/assets/a734641c-ae99-4ff1-b02a-c7ed23dc9d44" />
 </p>
-
----
-
