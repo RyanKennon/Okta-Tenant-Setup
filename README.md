@@ -40,6 +40,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ### 1) Organization Initialization
 
+Organization initialization configures the foundational identity of the Okta 
+org including the company name, contact information, and address. These settings 
+appear in Okta-generated emails and audit logs and establish the org as belonging 
+to Kennon Technologies.
+
 1.  In the **Okta Admin Console** open the **Settings** tab then select **Account**
 2.  In the **Organization Contact** section select **Edit**
 3.  Fill out the the company information with the following information:
@@ -60,6 +65,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 2) Branding
+
+Branding customizes the visual identity of the Okta org by uploading a company 
+logo, setting a primary color, and configuring a favicon. This ensures users 
+interact with a sign-in experience that reflects Kennon Technologies rather than 
+a generic Okta tenant.
 
 1. Open the **Customizations** tab then select **Branding** then select **Create Brand**
 2. On the **Theme** page make the following changes:
@@ -89,6 +99,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 3) Create a User Identities
+
+User identities represent individual employees in the Okta Universal Directory. 
+Creating user accounts with accurate profile information establishes the foundation 
+for group membership, application access, and lifecycle management throughout 
+the lab.
 
 1. Open the **Directory** tab then select **People** then select **Add Person**
 2. Create a User Identity with the following information
@@ -141,6 +156,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ### 4) Add Custom Profile Attributes
 
+Custom profile attributes extend the default Okta user schema to capture 
+organization-specific data that doesn't exist in the standard profile. These 
+attributes can be used for reporting, group rule logic, and attribute mapping 
+to downstream applications.
+
 1. Open the **Directory** then **Profile Editor** then select **User (default)**
 2. Select **Add Attribute** then create an Attribute with the following information:
    - **Data Type:** String
@@ -170,6 +190,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 5) Update Attributes on User Identities
+
+Populating custom attributes on user identities validates that the new schema 
+fields are functioning correctly and ensures each user has accurate department, 
+employee ID, and start date information that will drive downstream group 
+assignment and access decisions.
 
 1. Open the **Directory** then **People**
 2. Select **John Smith** then the **Profile** tab then click **Edit**
@@ -206,6 +231,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ### 6) Create Groups
 
+Groups in Okta are used to organize users and control access to applications 
+and policies. Creating department-based groups establishes the access structure 
+that will be used to assign application access, session policies, and 
+authenticator enrollment requirements.
+
 1. Open the **Directory** tab then select **Groups** then select **Add Group**
 2. Create a Group using the following information:
    - **Name:** Kennon Technologies Employees
@@ -226,6 +256,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ### 7) Manually Assign Users to a Group
 
+Manually assigning users to the Kennon Technologies Employees group demonstrates 
+direct group membership management and establishes the base group that will be 
+referenced in the Global Session Policy and Authenticator Enrollment Policy 
+configurations.
+
 1. Open the **Directory** tab then select **Groups**
 2. Select **Kennon Technologies Employees** and open the **People** tab
 3. Select **Assign People**
@@ -239,6 +274,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 8) Create Group Rules to Assign Users to Groups
+
+Group rules use Okta Expression Language to automatically assign users to groups 
+based on their profile attribute values. This eliminates the need for manual 
+group management and ensures users are always placed in the correct department 
+group as their profile information changes.
 
 1. Open the **Directory** tab then select **Groups**
 2. Select the **Rules** tab then select **Add Rule**
@@ -286,6 +326,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ### 9) Create an Authentication Policy
 
+Authentication policies define the security requirements users must meet to 
+access applications assigned to that policy. Creating a dedicated policy for 
+Kennon Technologies employees establishes a baseline access control layer 
+separate from Okta's default policy.
+
 1. Open the **Security** tab then go to **Authentication Policies**
 2. Select **App Sign-In** then **Create Policy**
 3. Create an Authentication Policy with the following information:
@@ -301,6 +346,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 10) Add Rules to a Policy
+
+Authentication policy rules define the specific factor requirements users must 
+satisfy under different conditions. Configuring a password-only rule and an MFA 
+rule demonstrates how Okta evaluates rules in priority order and applies the 
+first matching rule to the authentication request.
 
 1. With the **Standard Employee Policy** open select **Add Rule**
 2. For the First Rule enter the following information:
@@ -327,6 +377,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 11) Create a Global Session Policy and Configure Rule
+
+The Global Session Policy controls how long a user's Okta session remains active 
+across all applications. Configuring session lifetime and idle timeout settings 
+ensures that inactive sessions are terminated automatically, reducing the risk 
+of unauthorized access from unattended devices.
 
 1. Open the **Security** tab then select **Global Session Policy** then select **Add Policy**
 2. Create a Global Session Policy with the following information:
@@ -355,6 +410,12 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 ---
 
 ### 12) Create an Authenticator Enrollment Policy and Configure Enrollment Rule
+
+Authenticator enrollment policies control which authentication methods users are 
+permitted to enroll in and under what conditions. Configuring a dedicated 
+enrollment policy for Kennon Technologies employees ensures that authenticator 
+registration is governed by organizational policy rather than left to individual 
+user preference.
 
 1. Open the **Security** tab then select **Authenticators**
 2. Select the **Enrollments** tab then select **Add a Policy**
