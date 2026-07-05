@@ -7,10 +7,19 @@
 
 1.  In the **Okta Admin Console** open the **Settings** tab then select **Account**
 2.  In the **Organization Contact** section select **Edit**
-3.  Fill out the information with the company information then **Save**
+3.  Fill out the the company information with the following information:
+   - **Company Name:** Kennon Technologies
+   - **Telephone Number:** 999-999-9999
+   - **Address:** 100 1st Street
+   - **City:** Fort Worth
+   - **State:** Texas
+   - **Zip Code:** 76107
+   - **Country:** United States of America
+
+4. **Save**
 
 <p align="center">
-  <img width="1028" height="654" alt="image" src="https://github.com/user-attachments/assets/2780303e-c36d-42ea-89f8-ebbe84ffb238" />
+  <img width="464" height="630" alt="image" src="https://github.com/user-attachments/assets/a8f31d1e-c2d8-4bc6-914a-93d3df55d09f" />
 </p>
 
 ---
