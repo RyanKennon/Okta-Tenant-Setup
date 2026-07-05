@@ -19,7 +19,7 @@
 
 1. Open the **Customizations** tab then select **Branding** then select **Create Brand**
 2. On the **Theme** page make the following changes:
-   - **Logo:** ![Kennon Technologies Logo](screenshots/branding/logo.png)
+   - **Logo:** ![Kennon Technologies Logo]([screenshots/branding/logo.png](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/Kennon%20Technologies%20Logo.png))
    - **Primary Color:** 
-   - **Favicon:** ![Favicon](screenshots/branding/favicon.png)
+   - **Favicon:** ![Favicon]([screenshots/branding/favicon.png](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/KT%20Favicon.png))
 
