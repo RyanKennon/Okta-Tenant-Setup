@@ -12,3 +12,13 @@
 <p align="center">
   <img width="1028" height="654" alt="image" src="https://github.com/user-attachments/assets/2780303e-c36d-42ea-89f8-ebbe84ffb238" />
 </p>
+
+---
+
+### 2) Branding
+
+1. Open the **Customizations** tab then select **Branding** then select **Create Brand**
+2. On the **Theme** page make the following changes:
+   - **Logo:** 
+   - **Primary Color:** 
+   - **Favicon:** 
