@@ -19,6 +19,7 @@
 
 1. Open the **Customizations** tab then select **Branding** then select **Create Brand**
 2. On the **Theme** page make the following changes:
-   - **Logo:** 
+   - **Logo:** ![Kennon Technologies Logo](screenshots/branding/logo.png)
    - **Primary Color:** 
-   - **Favicon:** 
+   - **Favicon:** ![Favicon](screenshots/branding/favicon.png)
+
