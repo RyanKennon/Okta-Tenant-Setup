@@ -10,14 +10,11 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ## Prerequisites
 
-This lab is part of the [Okta IAM Lab Series](https://github.com/RyanKennon/Okta-Lab-Series/tree/main).
-This is the first lab in the series. The following are required before 
-starting the series:
+This is the first lab of the [Okta IAM Lab Series](https://github.com/RyanKennon/Okta-Lab-Series/tree/main). 
+The following are required before starting the series:
 
-- **Okta Trial Org** — Sign up for a free Okta trial org at 
-[developer.okta.com](https://developer.okta.com)
-- **GitHub Account** — Required to follow along with lab documentation 
-and host your own portfolio
+- **Okta Trial Org** — Sign up for a free Okta trial org at [developer.okta.com](https://developer.okta.com)
+- **GitHub Account** — Required to follow along with lab documentation and host your own portfolio
 
 ---
 
