@@ -8,6 +8,18 @@ This project demonstrates the foundational configuration of an Okta Identity Pro
 
 ---
 
+## Prerequisites
+
+This lab is part of the [Okta IAM Lab Series](https://github.com/RyanKennon/Okta-Lab-Series/tree/main).
+This is the first lab in the series. The following are required before starting:
+
+- **Okta Trial Org** — Sign up for a free Okta trial org at 
+[developer.okta.com](https://developer.okta.com)
+- **GitHub Account** — Required to follow along with lab documentation 
+and host your own portfolio
+
+---
+
 ## Environments and Technologies Used
 
 - Okta Identity Cloud (Trial Org)
@@ -440,4 +452,17 @@ user preference.
 
 <p align="center">
   <img width="905" height="773" alt="image" src="https://github.com/user-attachments/assets/a734641c-ae99-4ff1-b02a-c7ed23dc9d44" />
+</p>
+
+---
+
+> **Note:** This lab is intentionally left open. The Okta org configured 
+> here serves as the foundation for all subsequent Okta labs. Continue to 
+> [Lab 2 — Okta Active Directory Integration](https://github.com/RyanKennon/Okta-AD-Integration) 
+> to build on this configuration.
+
+---
+
+<p align="right">
+  <a href="https://github.com/RyanKennon/okta-AD-integration">Lab 2 — Okta Active Directory Integration ➡</a>
 </p>
