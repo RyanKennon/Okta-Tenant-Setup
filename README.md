@@ -40,11 +40,10 @@ The following are required before starting the series:
 - [5) Update Attributes on User Identities](#5-update-attributes-on-user-identities)
 - [6) Create Groups](#6-create-groups)
 - [7) Manually Assign Users to a Group](#7-manually-assign-users-to-a-group)
-- [8) Create Group Rules to Assign Users to Groups](#8-create-group-rules-to-assign-users-to-groups)
+- [8) Create Group Rules](#8-create-group-rules)
 - [9) Create an Authentication Policy](#9-create-an-authentication-policy)
-- [10) Add Rules to a Policy](#10-add-rules-to-a-policy)
-- [11) Create a Global Session Policy and Configure Rule](#11-create-a-global-session-policy-and-configure-rule)
-- [12) Create an Authenticator Enrollment Policy and Configure Enrollment Rule](#12-create-an-authenticator-enrollment-policy-and-configure-enrollment-rule)
+- [10) Create a Global Session Policy](#11-create-a-global-session-policy)
+- [11) Create an Authenticator Enrollment Policy](#12-create-an-authenticator-enrollment-policy)
 
 ---
 
@@ -81,7 +80,7 @@ logo, setting a primary color, and configuring a favicon. This ensures users
 interact with a sign-in experience that reflects Kennon Technologies rather than 
 a generic Okta tenant.
 
-1. Open the **Customizations** tab then select **Branding** then select **Create Brand**
+1. Open the **Customizations** tab then select **Brands** then select **Create Brand**
 2. On the **Theme** page make the following changes:
    - **Logo:** [Kennon Technologies Logo](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/Kennon-Technologies-Logo.png)
    - **Primary Color:** #1800AD
@@ -283,7 +282,7 @@ configurations.
 
 ---
 
-### 8) Create Group Rules to Assign Users to Groups
+### 8) Create Group Rules
 
 Group rules use Okta Expression Language to automatically assign users to groups 
 based on their profile attribute values. This eliminates the need for manual 
@@ -353,17 +352,8 @@ separate from Okta's default policy.
   <img width="483" height="361" alt="image" src="https://github.com/user-attachments/assets/6b84bb9e-2efe-4e3e-9484-25e63809b178" />
 </p>
 
----
-
-### 10) Add Rules to a Policy
-
-Authentication policy rules define the specific factor requirements users must 
-satisfy under different conditions. Configuring a password-only rule and an MFA 
-rule demonstrates how Okta evaluates rules in priority order and applies the 
-first matching rule to the authentication request.
-
-1. With the **Standard Employee Policy** open select **Add Rule**
-2. For the First Rule enter the following information:
+5. With the **Standard Employee Policy** open select **Add Rule**
+6. For the First Rule enter the following information:
    - **Rule Name:** Password Only
    - **Then Access Is:** Allowed After Successful Authentication
    - **And User Must Authenticate With:** Password
@@ -372,8 +362,8 @@ first matching rule to the authentication request.
   <img width="913" height="138" alt="image" src="https://github.com/user-attachments/assets/ad9330db-5166-4b16-b24d-ce332977c4af" />
 </p>
 
-3. **Save** then **Add Rule** again
-4. For the Second Rule enter the following information:
+7. **Save** then **Add Rule** again
+8. For the Second Rule enter the following information:
   - **Rule Name:** Require MFA
   - **Then Access Is:** Allowed After Successful Authentication
   - **And User Must Authenticate With:** Password + Another Factor
@@ -382,11 +372,11 @@ first matching rule to the authentication request.
   <img width="869" height="138" alt="image" src="https://github.com/user-attachments/assets/14b3ca10-f7fc-4e66-8525-c00d6603790b" />
 </p>
 
-5. **Save**
+9. **Save**
 
 ---
 
-### 11) Create a Global Session Policy and Configure Rule
+### 10) Create a Global Session Policy
 
 The Global Session Policy controls how long a user's Okta session remains active 
 across all applications. Configuring session lifetime and idle timeout settings 
@@ -419,7 +409,7 @@ of unauthorized access from unattended devices.
 
 ---
 
-### 12) Create an Authenticator Enrollment Policy and Configure Enrollment Rule
+### 11) Create an Authenticator Enrollment Policy
 
 Authenticator enrollment policies control which authentication methods users are 
 permitted to enroll in and under what conditions. Configuring a dedicated 
