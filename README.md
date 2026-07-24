@@ -42,8 +42,8 @@ The following are required before starting the series:
 - [7) Manually Assign Users to a Group](#7-manually-assign-users-to-a-group)
 - [8) Create Group Rules](#8-create-group-rules)
 - [9) Create an Authentication Policy](#9-create-an-authentication-policy)
-- [10) Create a Global Session Policy](#11-create-a-global-session-policy)
-- [11) Create an Authenticator Enrollment Policy](#12-create-an-authenticator-enrollment-policy)
+- [10) Create a Global Session Policy](#10-create-a-global-session-policy)
+- [11) Create an Authenticator Enrollment Policy](#11-create-an-authenticator-enrollment-policy)
 
 ---
 
@@ -56,7 +56,7 @@ to Kennon Technologies.
 
 1.  In the **Okta Admin Console** open the **Settings** tab then select **Account**
 2.  In the **Organization Contact** section select **Edit**
-3.  Fill out the the company information with the following information:
+3.  Fill out the company information with the following information:
    - **Company Name:** Kennon Technologies
    - **Telephone Number:** 999-999-9999
    - **Address:** 100 1st Street
