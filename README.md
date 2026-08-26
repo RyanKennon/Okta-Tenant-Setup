@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/2c068a6c-d82b-4a43-ad32-d9fe559e1837" />
+  <img src="Images/Header.png" img width="900" height="500" alt="image">
 </p>
 
 # Okta Tenant Setup & Configuration
@@ -68,7 +68,7 @@ to Kennon Technologies.
 4. **Save**
 
 <p align="center">
-  <img width="464" height="630" alt="image" src="https://github.com/user-attachments/assets/a8f31d1e-c2d8-4bc6-914a-93d3df55d09f" />
+  <img src="Images/Image%201.png" img width="464" height="630" alt="image">
 </p>
 
 ---
@@ -82,27 +82,27 @@ a generic Okta tenant.
 
 1. Open the **Customizations** tab then select **Brands** then select **Create Brand**
 2. On the **Theme** page make the following changes:
-   - **Logo:** [Kennon Technologies Logo](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/Kennon-Technologies-Logo.png)
+   - **Logo:** [Kennon Technologies Logo](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/Assets/Kennon-Technologies-Logo.png)
    - **Primary Color:** #1800AD
-   - **Favicon:** [Kennon Technologies Favicon](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/KT-Favicon.png)
+   - **Favicon:** [Kennon Technologies Favicon](https://github.com/RyanKennon/Okta-Tenant-Setup/blob/main/Assets/KT-Favicon.png)
 
 3. **Save**
 
 <p align="center">
-  <img width="517" height="616" alt="image" src="https://github.com/user-attachments/assets/5a21bf25-724c-4108-83c2-deca9c8a0cec" />
+  <img src="Images/Image%202.png" img width="517" height="616" alt="image">
 </p>
 
 4. On the **Pages** tab select **Configure** on the **Sign-In Page**
 5. Check the **Solid Background** option then **Save and Publish**
 
 <p align="center">
-  <img width="1383" height="749" alt="image" src="https://github.com/user-attachments/assets/a10378b3-d9d3-4446-86c4-3d590b2dcf25" />
+  <img src="Images/Image%203.png" img width="1383" height="749" alt="image">
 </p>
 
 6. Do the same for the **End-User Dashboard** and the **Error Pages**
 
 <p align="center">
-  <img width="1379" height="448" alt="image" src="https://github.com/user-attachments/assets/b321f1f0-143a-4919-b10f-9d59360d2da9" />
+  <img src="Images/Image%204.png" img width="1379" height="448" alt="image">
 </p>
 
 ---
@@ -127,7 +127,7 @@ the lab.
 3. **Save and Add Another**
   
 <p align="center">
-  <img width="693" height="837" alt="image" src="https://github.com/user-attachments/assets/ae569976-4027-4cb2-9b14-9f8081daa1bb" />
+  <img src="Images/Image%205.png" img width="693" height="837" alt="image">
 </p>
 
 4. Create a second User Identity with the following information:
@@ -142,7 +142,7 @@ the lab.
 5. **Save and Add Another**
 
 <p align="center">
-  <img width="692" height="829" alt="image" src="https://github.com/user-attachments/assets/fdf727bc-9be5-4b13-b402-e8706a9cb718" />
+  <img src="Images/Image%206.png" img width="692" height="829" alt="image">
 </p>
 
 6. Create a third User Identity with the following information:
@@ -157,7 +157,7 @@ the lab.
 7. **Save**
 
 <p align="center">
-  <img width="693" height="831" alt="image" src="https://github.com/user-attachments/assets/5bdde775-d81b-4096-8f02-346f931fe384" />
+  <img src="Images/Image%207.png" img width="693" height="831" alt="image">
 </p>
 
 
@@ -179,7 +179,7 @@ to downstream applications.
    - **User Description:** Hide
 
 <p align="center">
-  <img width="682" height="915" alt="image" src="https://github.com/user-attachments/assets/f948f092-03d8-4d5b-a424-fc42a0f8c212" />
+  <img src="Images/Image%208.png" img width="682" height="915" alt="image">
 </p>
 
 3. **Save and Add Another**
@@ -191,7 +191,7 @@ to downstream applications.
    - **User Description:** Read Only
 
 <p align="center">
-  <img width="685" height="871" alt="image" src="https://github.com/user-attachments/assets/c31fff04-cc1d-4f1e-9f0b-1ae809b26360" />
+  <img src="Images/Image%209.png" img width="685" height="871" alt="image">
 </p>
 
 5. **Save**
@@ -215,7 +215,7 @@ assignment and access decisions.
 5. **Save**
 
 <p align="center">
-  <img width="727" height="424" alt="image" src="https://github.com/user-attachments/assets/0981b9b8-94bb-4cea-9cb8-3b5ab387064e" />
+  <img src="Images/Image%2010.png" img width="727" height="424" alt="image">
 </p>
 
 6. For **Jane Doe** make and save the following attribute information:
@@ -224,7 +224,7 @@ assignment and access decisions.
    - **Start Date:** 2024-01-17
   
 <p align="center">
-  <img width="705" height="425" alt="image" src="https://github.com/user-attachments/assets/8996250f-4837-4cbe-985b-895cfbbb5d87" />
+  <img src="Images/Image%2011.png" img width="705" height="425" alt="image">
 </p>
 
 7. For **Bob Johnson** make and save the following attribute information:
@@ -233,7 +233,7 @@ assignment and access decisions.
    - **Start Date:** 2023-06-12
 
 <p align="center">
-  <img width="693" height="412" alt="image" src="https://github.com/user-attachments/assets/0028ab02-2449-4551-bdbe-caa7f3115931" />
+  <img src="Images/Image%2012.png" img width="693" height="412" alt="image">
 </p>
 
 ---
@@ -253,7 +253,7 @@ authenticator enrollment requirements.
 3. **Save**
 
 <p align="center">
-  <img width="687" height="255" alt="image" src="https://github.com/user-attachments/assets/3235e97c-0b36-4863-8467-732d4aab70c7" />
+  <img src="Images/Image%2013.png" img width="687" height="255" alt="image">
 </p>
 
 4. Create 3 additional groups named: 
@@ -277,7 +277,7 @@ configurations.
 5. **Done**
 
 <p align="center">
-  <img width="1018" height="429" alt="image" src="https://github.com/user-attachments/assets/1719c8c0-517f-4b76-aff4-4827a3878780" />
+  <img src="Images/Image%2014.png" img width="1018" height="429" alt="image">
 </p>
 
 ---
@@ -299,13 +299,13 @@ group as their profile information changes.
 4. **Save**
 
 <p align="center">
-  <img width="989" height="449" alt="image" src="https://github.com/user-attachments/assets/2e467df1-1e99-4e2f-8612-b49574ee9a7e" />
+  <img src="Images/Image%2015.png" img width="989" height="449" alt="image">
 </p>
 
 5. To the Right of the **Assign Finance Users** rule select **Actions** then select **Activate**
 
 <p align="center">
-  <img width="999" height="477" alt="image" src="https://github.com/user-attachments/assets/dd5dad06-e4e8-4407-bb38-0c2f2f35a2f8" />
+  <img src="Images/Image%2016.png" img width="999" height="477" alt="image">
 </p>
 
 
@@ -317,7 +317,7 @@ group as their profile information changes.
 7. **Save** and **Activate** the rule
 
 <p align="center">
-  <img width="989" height="448" alt="image" src="https://github.com/user-attachments/assets/6ad1d8a2-6c0d-4246-bd69-45e150c3c628" />
+  <img src="Images/Image%2017.png" img width="989" height="448" alt="image">
 </p>
 
 8. Create a third Group Rule with the following information:
@@ -328,7 +328,7 @@ group as their profile information changes.
 9. **Save** and **Activate** the rule
 
 <p align="center">
-  <img width="993" height="455" alt="image" src="https://github.com/user-attachments/assets/a8e57c99-5875-4d26-88e0-67afabad7f7c" />
+  <img src="Images/Image%2018.png" img width="993" height="455" alt="image">
 </p>
 
 ---
@@ -349,7 +349,7 @@ separate from Okta's default policy.
 4. **Create Policy**
 
 <p align="center">
-  <img width="483" height="361" alt="image" src="https://github.com/user-attachments/assets/6b84bb9e-2efe-4e3e-9484-25e63809b178" />
+  <img src="Images/Image%2019.png" img width="483" height="361" alt="image">
 </p>
 
 5. With the **Standard Employee Policy** open select **Add Rule**
@@ -359,7 +359,7 @@ separate from Okta's default policy.
    - **And User Must Authenticate With:** Password
 
 <p align="center">
-  <img width="913" height="138" alt="image" src="https://github.com/user-attachments/assets/ad9330db-5166-4b16-b24d-ce332977c4af" />
+  <img src="Images/Image%2020.png" img width="913" height="138" alt="image">
 </p>
 
 7. **Save** then **Add Rule** again
@@ -369,7 +369,7 @@ separate from Okta's default policy.
   - **And User Must Authenticate With:** Password + Another Factor
 
 <p align="center">
-  <img width="869" height="138" alt="image" src="https://github.com/user-attachments/assets/14b3ca10-f7fc-4e66-8525-c00d6603790b" />
+  <img src="Images/Image%2021.png" img width="869" height="138" alt="image">
 </p>
 
 9. **Save**
@@ -392,7 +392,7 @@ of unauthorized access from unattended devices.
 3. **Create Policy and Add Rule**
 
 <p align="center">
-  <img width="590" height="423" alt="image" src="https://github.com/user-attachments/assets/76bb23de-36c3-408a-b8f8-ed78801c62dc" />
+  <img src="Images/Image%2022.png" img width="590" height="423" alt="image">
 </p>
 
 4. For the Global Session Policy Rule enter the following information
@@ -404,7 +404,7 @@ of unauthorized access from unattended devices.
 5. **Create Rule**
 
 <p align="center">
-  <img width="873" height="582" alt="image" src="https://github.com/user-attachments/assets/75f9d352-1d7f-4b65-8b45-f824979188ab" />
+  <img src="Images/Image%2023.png" img width="873" height="582" alt="image">
 </p>
 
 ---
@@ -427,7 +427,7 @@ user preference.
 4. **Create Policy**
 
 <p align="center">
-  <img width="593" height="903" alt="image" src="https://github.com/user-attachments/assets/a61e6ae0-49c0-4e6c-a59a-9028ece63f68" />
+  <img src="Images/Image%2024.png" img width="593" height="903" alt="image">
 </p>
 
 5. For the Authenticator Enrollment Rule enter the following information:
@@ -439,7 +439,7 @@ user preference.
 6. **Create Rule**
 
 <p align="center">
-  <img width="905" height="773" alt="image" src="https://github.com/user-attachments/assets/a734641c-ae99-4ff1-b02a-c7ed23dc9d44" />
+  <img src="Images/Image%2025.png" img width="905" height="773" alt="image">
 </p>
 
 ---
